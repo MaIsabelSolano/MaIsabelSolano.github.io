@@ -3,9 +3,3 @@ html {
   margin: 0;
   height: 100hv;
 }
-
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}

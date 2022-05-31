@@ -1,5 +1,5 @@
 import React from "react"
-import './Navbar.css'
+import './Components.css'
 
 export default function Navbar() {
     return (
@@ -10,7 +10,7 @@ export default function Navbar() {
                 <h3>Aka Bel</h3>
             </div>
             <div className="upper-navbar-right">
-                <img src="../src/Imgs/Yo.png" className="yo-png"></img>
+                <img src="../src/Imgs/Yo.png"></img>
             </div>
         </nav>
     )
