@@ -1,5 +1,5 @@
 .upper-navbar {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: black;
     margin: 0;
@@ -9,11 +9,28 @@
 }
 
 .upper-navbar-left {
-    width: 60%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.upper-navbar-left > h1 {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.upper-navbar-left > h3 {
+    margin: 0;
+    font-size: 20px;
 }
 
 .upper-navbar-right {
-    width: 40%;
+    width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
