@@ -7,6 +7,7 @@ export default function Skills() {
         return (
             <div className="tarjeta">
                 <h1>{props.skill}</h1>
+                <img src={props.imagen}></img>
                 <p>{props.desc}</p>
                 <a href={props.link}>{props.donde}</a>
             </div>
@@ -19,8 +20,9 @@ export default function Skills() {
             <div className="tarjetas-skills">
                 <Tarjeta 
                     skill="Digital Art"
-                    desc="Over 8 years of experience in digital art. Experienced with programs such as Clip Studiop Paint, Paintool SAI, FireAlpaca"
+                    desc="Over 8 years of experience in digital art. Experienced with programs such as Clip Studiop Paint, Paintool SAI, FireAlpaca. Skilled at drawing cartoons and semirealism"
                     donde="Instagram"
+                    imagen="../src/Imgs/fotos_proyecto_final_arte.png"
                     link="https://www.instagram.com/bel_art27/"
                 />
                 <Tarjeta 
@@ -33,6 +35,7 @@ export default function Skills() {
                     skill="Videogame Development"
                     desc="Experienced with videogame development using UNITY and UNREAL ENGINE"
                     donde="Itch.io"
+                    imagen="../src/Imgs/fotos_proyecto_final_videogames.png"
                     link="https://bel-games.itch.io/"
                 />
             </div>
