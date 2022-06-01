@@ -79,6 +79,11 @@ h1, h3 {
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
 }
 
+.info-aboutme > p {
+    color: white;
+    font-size: 20px;
+}
+
 /* Componente skills*/
 .info-skills {
     width: 100%;
