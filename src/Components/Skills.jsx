@@ -22,21 +22,21 @@ export default function Skills() {
                     skill="Digital Art"
                     desc="Over 8 years making digital art. Experienced with programs such as Clip Studio Paint, Paintool SAI, FireAlpaca. Skilled at drawing cartoons and semirealism"
                     donde="Instagram"
-                    imagen="../src/Imgs/fotos_proyecto_final_arte.png"
+                    imagen="/images/fotos_proyecto_final_arte.png"
                     link="https://www.instagram.com/bel_art27/"
                 />
                 <Tarjeta 
                     skill="Programming"
                     desc="Focused mainly on OOP and MVC. Familiar with programming languages such as Python and Java and experience with others such as react and c++"
                     donde="Github"
-                    imagen="../src/Imgs/fotos_proyecto_final_programming.png"
+                    imagen="/images/fotos_proyecto_final_programming.png"
                     link="https://github.com/MaIsabelSolano"
                 />
                 <Tarjeta
                     skill="Videogame Development"
                     desc="Experienced with videogame development using UNITY and UNREAL ENGINE"
                     donde="Itch.io"
-                    imagen="../src/Imgs/fotos_proyecto_final_videogames.png"
+                    imagen="/images/fotos_proyecto_final_videogames.png"
                     link="https://bel-games.itch.io/"
                 />
             </div>

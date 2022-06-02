@@ -6,7 +6,7 @@ export default function ContactMe() {
         <div className="info info-ContactMe">
             <h2>Contact me</h2>
             <div>
-                <img src="../src/Imgs/contact-me.gif"></img>
+                <img src="/images/contact-me.gif"></img>
                 <div>
                     <h3 className="contact-me-title">Social Media</h3>
                     <a href="https://www.instagram.com/bel_art27/">Instagram</a>

@@ -20,14 +20,14 @@ export default function Projects() {
             <h2>Projects</h2>
             <div>
                 <Proyectos
-                    imagen = "../src/Imgs/rnk.png"
+                    imagen = "/images/rnk.png"
                     titulo = "Ritsuko & Kooji"
                     desc = "A wholesome story featuring a 'lone wolf' and a 'timid cat'"
                     link1_nom = "Read on Webtoon"
-                    link2_nom = "Read on Tapas"
+                    link2_nom = "Read on eTapas"
                 />
                 <Proyectos
-                    imagen = "../src/Imgs/coming-soon.png"
+                    imagen = "/images/coming-soon.png"
                     titulo = "Coming soon"
                     desc = ""
                 />

@@ -10,7 +10,7 @@ export default function Navbar() {
                 <h3>Aka Bel</h3>
             </div>
             <div className="upper-navbar-right">
-                <img src="../src/Imgs/Yo.png"></img>
+                <img src="/images/Yo.png"></img>
             </div>
         </nav>
     )
