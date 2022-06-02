@@ -20,7 +20,7 @@ export default function Skills() {
             <div className="tarjetas-skills">
                 <Tarjeta 
                     skill="Digital Art"
-                    desc="Over 8 years of experience in digital art. Experienced with programs such as Clip Studiop Paint, Paintool SAI, FireAlpaca. Skilled at drawing cartoons and semirealism"
+                    desc="Over 8 years making digital art. Experienced with programs such as Clip Studio Paint, Paintool SAI, FireAlpaca. Skilled at drawing cartoons and semirealism"
                     donde="Instagram"
                     imagen="../src/Imgs/fotos_proyecto_final_arte.png"
                     link="https://www.instagram.com/bel_art27/"

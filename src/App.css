@@ -11,6 +11,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(255, 212, 3);
+  border-radius: 100px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
