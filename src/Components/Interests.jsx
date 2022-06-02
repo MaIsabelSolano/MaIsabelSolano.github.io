@@ -29,6 +29,11 @@ export default function Interests() {
                     interes = "Volleyball <3"
                     desc = "I may not be the greates volleyball of them all, but if invited to play, I won't think twice before standing on the court hehe"
                 />
+                <TarjetaIn 
+                    imagen = "../src/Imgs/music.png"
+                    interes = "Music <3"
+                    desc ="I absolutely love listening to musics. I may not be able to play any instruments (yet), but I can apreciate the feeling behind songs and their developement"
+                />
             </div>
         </div>
     )
