@@ -9,6 +9,8 @@ export default function Projects() {
                 <img src={props.imagen}></img>
                 <h3>{props.titulo}</h3>
                 <p>{props.desc}</p>
+                <a>{props.link1_nom}</a>
+                <a>{props.link2_nom}</a>
             </div>
         )
     }
@@ -20,11 +22,13 @@ export default function Projects() {
                 <Proyectos
                     imagen = "../src/Imgs/rnk.png"
                     titulo = "Ritsuko & Kooji"
-                    desc = ""
+                    desc = "A wholesome story featuring a 'lone wolf' and a 'timid cat'"
+                    link1_nom = "Read on Webtoon"
+                    link2_nom = "Read on Tapas"
                 />
                 <Proyectos
-                    imagen = "../src/Imgs/rnk.png"
-                    titulo = "Ritsuko & Kooji"
+                    imagen = "../src/Imgs/coming-soon.png"
+                    titulo = "Coming soon"
                     desc = ""
                 />
             </div>
