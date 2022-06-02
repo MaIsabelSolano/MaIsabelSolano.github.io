@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import AboutMe from './Components/AboutMe'
 import ContactMe from './Components/ContactMe'
@@ -9,16 +8,16 @@ import Skills from './Components/Skills'
 
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <AboutMe />
-      <Skills />
-      <Interests />
-      <Projects />
-      <ContactMe />
-    </div>
-  )
+    return (
+        <div className="App">
+            <Navbar />
+            <AboutMe />
+            <Skills />
+            <Interests />
+            <Projects />
+            <ContactMe />
+        </div>
+    )
 }
 
 export default App
