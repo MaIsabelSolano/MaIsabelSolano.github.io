@@ -9,6 +9,10 @@
     flex-direction: row;
 }
 
+.upper-navbar:hover {
+    padding: 20px 0;
+}
+
 .upper-navbar-left {
     width: 50%;
     height: 100%;
@@ -20,9 +24,12 @@
 
 .upper-navbar-left > h1 {
     margin: 0;
-    font-size: 70px;
+    font-size: 75px;
     margin-bottom: 20px;
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+.upper-navbar-left > h1:hover {
 }
 
 .upper-navbar-left > h3 {
@@ -43,7 +50,13 @@
     width: 300px;
     height: 300px;
     border-radius: 200px;
-    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 50px 5px rgb(255, 212, 3, 0.4);
+}
+
+.upper-navbar-right > img:hover {
+    width: 310px;
+    height: 310px;
+    box-shadow: 0 0 50px 10px rgb(255, 212, 3, 0.4);
 }
 
 h1, h3 {
@@ -51,11 +64,16 @@ h1, h3 {
 }
 
 /* General para todos los componentes */
+
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0;
+    padding: 35px 0;
+}
+
+.info:hover {
+    padding: 60px 0;
 }
 
 .info > h2 {
@@ -65,12 +83,11 @@ h1, h3 {
     font-weight: 850;
 }
 
-
 /* Componente about me */
 
 .info-aboutme {
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: rgb(56, 28, 74);
 }
 
@@ -81,10 +98,12 @@ h1, h3 {
 
 .info-aboutme > p {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 10px;
 }
 
 /* Componente skills*/
+
 .info-skills {
     width: 100%;
     height: auto;
@@ -95,11 +114,12 @@ h1, h3 {
     height: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .tarjeta {
     height: auto;
-    width: 30%;
+    width: 25%;
     background-color: rgb(255, 212, 3);
     margin: 10px;
     padding: 25px;
@@ -110,11 +130,35 @@ h1, h3 {
     border-radius: 40px;
 }
 
+.tarjeta:hover {
+    box-shadow: 0px 10px 0px 0px rgb(56, 28, 74);
+}
+
+.tarjeta > p {
+    font-size: 25px;
+}
+
 .tarjeta > img {
     width: 100%;
 }
 
+.tarjeta > a {
+    font-size: 25px;
+    border: solid;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(56, 28, 74);
+    border-color: rgb(56, 28, 74);
+    width: 100%;
+    text-align: center;
+}
+
+.tarjeta > a:hover {
+    background-color: white;
+}
+
 /* Component interest */
+
 .info-interests{
     background-color: rgb(56, 28, 74);
 }
@@ -124,12 +168,52 @@ h1, h3 {
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
 }
 
+.tarjetasIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaIn {
+    height: auto;
+    width: 80%;
+    border: 5px;
+    border-color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 25px 10px;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+.tarjetaIn > img {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+.tarjetaIn > div > h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.tarjetaIn > div > p {
+    font-size: 30px;
+}
+
 /* Component projects */
+
 .info-projects {
     background-color: white;
 }
 
 /* Component ContactMe*/
+
 .info-ContactMe {
     background-color: black;
 }

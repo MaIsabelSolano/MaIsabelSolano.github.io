@@ -27,8 +27,9 @@ export default function Skills() {
                 />
                 <Tarjeta 
                     skill="Programming"
-                    desc="Focused on OOP. Experienced with Python, Java"
+                    desc="Focused mainly on OOP and MVC. Familiar with programming languages such as Python and Java and experience with others such as react and c++"
                     donde="Github"
+                    imagen="../src/Imgs/fotos_proyecto_final_programming.png"
                     link="https://github.com/MaIsabelSolano"
                 />
                 <Tarjeta
