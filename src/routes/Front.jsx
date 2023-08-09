@@ -11,7 +11,8 @@ const Front = ({}) => {
 
   return (
     <div className="Front">
-    <HeaderF/>
+      <HeaderF/>
+      
       <span className="categories">
         <Category 
           cat = "Computer Science"

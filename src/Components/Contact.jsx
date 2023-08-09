@@ -7,18 +7,23 @@ const Contact = ({  }) => {
     return (
         <footer className='contact' >
             {/* Centrar */}
+            <h3>Where to find me...</h3>
             <div>
-                {/* Imagen */}
-                <div>
-
-                </div>
                 {/* Social media */}
-                <div>
-                    <h3>Where to find me</h3>
+                <div className='cont-minsec'>
+                    <h3>e-mail</h3>
+                    <a>misolanob@gmail.com</a>
+                    <a>bel_contact27@gmail.com</a>
 
-                    <h3>Contact info</h3>
-                    <p>misolanob@gmail.com</p>
                 </div>
+                <div className='cont-minsec'>
+                    <h3>Social media</h3>
+                    <a href='https://www.linkedin.com/in/isabel-solano/' target="_blank" >
+                        LinkIn
+                    </a>
+                    
+                </div>
+
             </div>
         </footer>
     )

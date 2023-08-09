@@ -1,9 +1,19 @@
+.Front {
+    overflow-y: scroll;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient( rgb(46, 41, 61), rgb(80, 74, 95), rgb(46, 41, 61));
+
+}
+
 .header {
     background-image: linear-gradient( rgb(30, 22, 45, 1), rgb(30, 22, 45, 0.8), rgb(30, 22, 45, 0.3), rgb(30, 22, 45, 0));
     margin: 0;
     height: fit-content;
     min-height: fit-content;
-    padding: 1em 5em 3em 5em;
+    padding: 3em 5em 3em 5em;
 }
 
 
@@ -49,15 +59,6 @@
     animation: spin 1.5s ease;
 }
 
-.Front {
-    overflow-y: scroll;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient( rgb(46, 41, 61), rgb(80, 74, 95), rgb(46, 41, 61));
-
-}
-
 .categories{
     min-height: fit-content;
     padding: 1em;
@@ -68,7 +69,7 @@
 }
 
 .cat {
-    width: 30vw;
+    width: 30em;
     height: 50vh;
     border-radius: 30px;
     border: 0;
@@ -79,14 +80,12 @@
     box-shadow: 0em 0em 3em rgba(255, 255, 255, 0.253);
     border: solid;
     border-color: white;
-    border-width: 5px;
+    border-width: 3px;
     
 }
 
 .cat:hover {
-    /* box-shadow: inset 1em 5em 5em black; */
-    /* background-image: var(--img, #bbb); */
-    /* background-image: url(/images/programming_v1); */
+    border-width: 5px;
     background-image: var(--img, #ccc);
     background-size: cover;
     background-position: center;
@@ -108,8 +107,68 @@
 .contact {
     display: block;
     min-height: 30vh;
-    background-image: linear-gradient( rgba(30, 22, 45, 0), rgb(30, 22, 45, 0.3), rgb(30, 22, 45, 0.8), rgb(13, 8, 23, 1));
+    padding: 5em 4em 1em 4em;
+    background-image: linear-gradient( rgba(30, 22, 45, 0), rgb(30, 22, 45, 0.5), rgb(30, 22, 45, 0.9), rgb(13, 8, 23, 1));
 }
+
+.contact>h3 {
+    color: rgb(137, 131, 151);
+    text-align: center;
+    text-shadow: 0 0 1em rgba(255, 255, 255, 0.564);
+}
+
+.contact>div>div>h3 {
+    color: rgb(137, 131, 151);
+    text-align: center;
+    text-shadow: 0 0 1em rgba(255, 255, 255, 0.564);
+}
+
+.contact>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(137, 131, 151);
+    height: 70%;
+    margin: 0;
+}
+
+.cont-minsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 100%;
+    padding: 0 1em;
+}
+
+.contact>div>img {
+    max-width: 20em;
+    min-width: 10em;
+}
+
+.contact>div>div>a {
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.contact>div>div>a:checked {
+    color: rgb(128, 108, 177);
+}
+
+
+.contact>div>div>a:hover {
+    color: rgb(169, 164, 180);
+}
+
+
+
+
+
+
+
 
 html, body {
     height: 100%;
@@ -120,5 +179,5 @@ html, body {
     
   }
 
-  
+
 
