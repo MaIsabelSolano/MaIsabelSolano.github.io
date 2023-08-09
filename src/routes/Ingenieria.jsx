@@ -36,16 +36,19 @@ const Ingenieria = () => {
                     color: "white"
                 }}>
                 <div>
-                    <button>
-                        <Link to={"/"}>&lt;&lt;</Link>
-                    </button>
+                    <Link to={"/"}>
+                        <button className="return-btn">
+                            Home
+                        </button>
+                    </Link>
+                    
                 </div>
                 <div style={{padding : "0 0.5em"}}>
                     <img src='/images/logoUVG.png' style={{width : "100%"}}/>
                 </div> 
                 <span style={{padding : "0.3em", display: "flex", flexFlow: "column", alignItems: "center"}}>
                     <h4 style={{width : "85%", textAlign:"center"}}> Fourth-year undergraduate student of Computer Science Engineering</h4>
-                    <p  style={{width : "90%", textAlign:"center"}}>My journey began back in 2020 thanks to the humongous help of a the Juan Bautista Gutiérrez Fundation. Since then I've been dedicated to studying, creating, and learning the most out of everything</p>
+                    <p  style={{width : "90%", textAlign:"center"}}>My journey began in 2020 thanks to the humongous help of the Juan Bautista Gutiérrez Foundation. Since then I've been dedicated to studying, creating, and learning the most out of everything</p>
                 </span>
                 
             </div>
@@ -56,13 +59,13 @@ const Ingenieria = () => {
                         <Card 
                             title="Python"
                             desc="3 years of experience | Competent"
-                            color={"#4b4bb7"}
+                            color={"#334393"}
                             img="/images/logopython.png"
                         />
                         <Card 
                             title="Java"
                             desc="More than two years of experience | Proficient"
-                            color={"#7494bf"}
+                            color={"rgb(75 79 122)"}
                             img="/images/logojava.png"
                         />
                         <Card 
@@ -86,8 +89,8 @@ const Ingenieria = () => {
                         <Card 
                         title="DBM"
                         desc="A year of experience | Postgres, MongoDB  | Advanced beginner"
-                        color={"#646b72"}
-                        img="/images/logounity.png"
+                        color={"#8fa899"}
+                        img="/images/logopostgres.png"
                     />
                     </span>
                 </span>
@@ -113,28 +116,43 @@ const Ingenieria = () => {
                     <span className="rs_sec_riel">
                         <Card 
                             title="Syntactic Analysis Generator"
-                            desc="(Java)"
+                            desc="Java | Assignment for Programming Language Design | YAPL (Yet Another Programming Language) syntactic analysis generator"
                             color={"#6b7384"}
+                            img="/images/LR_0-2.jpg"
+                            linkName="github"
+                            linkURL="https://github.com/MaIsabelSolano/UVG_DLP_Syntactic-Analysis-Generator"
                         />
                         <Card 
                             title="Quick Supermarket Store Manager"
-                            desc="(React)"
+                            desc="React | Assignment for Data Bases 2 | Simple react app connected to MongoDB "
                             color={"#51777f"}
+                            img="/images/mongo.png"
+                            linkName="github"
+                            linkURL="https://github.com/ChristopherG19/Supermarket_mongodb/tree/main"
                         />
                         <Card 
                             title="Simple Game of Life"
-                            desc="(Python)"
+                            desc="Python | Assignment for Computer Graphics | Simple game of life using pygame"
                             color={"#a483bf"}
+                            img="/images/gol.png"
+                            linkName="github"
+                            linkURL="https://github.com/MaIsabelSolano/UVG_Graficas_Game-Of-Life"
                         />
                         <Card 
-                            title="Instagram rebranding"
-                            desc="desc 2"
+                            title="Instagram Re-design: (Insta-MR)"
+                            desc="Assignment for Human-Computer-Interaction | Instagram simple redesign"
                             color={"#64bcb9"}
+                            img="/images/insta.png"
+                            linkName="Google Drive"
+                            linkURL="https://drive.google.com/file/d/1RS6jaWb_M4B8tqy0ZS08xyfUusVQfhPJ/view?usp=sharing"
                         />
                         <Card 
                             title="WhatsApp rebranding"
-                            desc="desc 2"
+                            desc="Assignment for Human-Computer-Interaction | WhatsApp Feature Addition"
                             color={"#48ad76"}
+                            img="/images/figma.png"
+                            linkName="Google Drive"
+                            linkURL="https://drive.google.com/file/d/1Tt30sOBTLP0y8liqjIFL6mUPEBKUCSfV/view?usp=sharing"
                         />
                     </span>
                 </span>
@@ -144,7 +162,7 @@ const Ingenieria = () => {
                     <span className="rs_sec_riel">
                         <Card 
                             title="Introduction to Unreal Engine by Code Coven"
-                            desc="desc 1"
+                            desc="8 week virtual course (march 2022 - may 2022)"
                             color={"#5b1edd"}
                             img="/images/logocc.png"
                             
@@ -169,12 +187,12 @@ const Ingenieria = () => {
                     <span className="rs_sec_riel">
                         <Card 
                             title="Game Developement"
-                            desc="This is one of my favorite media for story telling. I absolutely admire how game design, story, music, art, and animation can be combined to create such a wonderfull experience"
+                            desc="This is one of my favorite media for storytelling. I absolutely admire how game design, story, music, art, and animation can be combined to create such a wonderful experience"
                             color={"#45a89b"}
                         />
                         <Card 
                             title="UX/UI"
-                            desc="As an artist, the design of things has been always an interest of mine. "
+                            desc="As an artist, the design of things has been always an interest of mine. And knowing how the user interacts naturally with a program is the key to its success"
                             color={"#c46ba6"}
                         />
                     </span>

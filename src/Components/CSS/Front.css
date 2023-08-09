@@ -106,7 +106,7 @@
 
 .contact {
     display: block;
-    min-height: 30vh;
+    min-height: 40vh;
     padding: 5em 4em 1em 4em;
     background-image: linear-gradient( rgba(30, 22, 45, 0), rgb(30, 22, 45, 0.5), rgb(30, 22, 45, 0.9), rgb(13, 8, 23, 1));
 }

@@ -21,6 +21,12 @@ const Contact = ({  }) => {
                     <a href='https://www.linkedin.com/in/isabel-solano/' target="_blank" >
                         LinkIn
                     </a>
+                    <a href="https://github.com/MaIsabelSolano" target="_blank">
+                        Github
+                    </a>
+                    <a href="https://bel-games.itch.io/" target="_blank">
+                        Itch.io
+                    </a>
                     
                 </div>
 

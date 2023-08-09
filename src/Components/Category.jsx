@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 
 import '../Components/CSS/Front.css'
 
-const Category = ({ cat, linkto, col, image }) => {
+const Category = ({ cat, linkto, col, image, title }) => {
 
     return (
-        <button className='cat'
-            style={{"--color": col, "--img": image}}
-        >
-            <Link to = {linkto}>
+        <Link to = {linkto} title={title}>
+            <button className='cat'
+                style={{"--color": col, "--img": image}}
+                onClick={{}}
+            >
                 <a>
                     {cat}
                 </a>
-            </Link>
-            
-        </button>
+            </button>
+        </Link>
     )
 
 }

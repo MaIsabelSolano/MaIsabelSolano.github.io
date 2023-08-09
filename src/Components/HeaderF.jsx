@@ -36,6 +36,9 @@ const HeaderF = () => {
                     <span>
                         <p><i>Computer Science Engineer | Digital Artist | Comic Artist</i></p>
                     </span>
+                    <span>
+                        <p>22 y/o | Guatemala</p>
+                    </span>
                 </div>
 
                 

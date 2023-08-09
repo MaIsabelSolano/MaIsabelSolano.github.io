@@ -1,3 +1,14 @@
+.return-btn {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 2em;
+    border-radius: 0 10px 10px 0;
+}
+
+.return-btn:hover {
+    background-color: rgba(255, 255, 255, 0.697);
+}
+
 .RightSide {
     padding: 2em;
     height: 100vh;
@@ -26,10 +37,12 @@
 }
 
 .gallery-cell {
-    display: block;
-    display: flex;
+    /* display: flex; */
+    display: grid;
     flex-direction: column;
-    align-items: center;
+    justify-self: center;
+    align-content: space-between;
+    justify-items: center;
 
     width: 14em;
     min-width: 13em;
@@ -47,6 +60,25 @@
 
 .gallery-cell>img{
     width: 70%;
+}
+
+.gallery-cell>a {
+    background-color: rgb(204, 204, 204);
+    padding: 0.5em;
+    border-radius: 10px;
+    color: rgb(41, 49, 43);
+    text-decoration: none;
+    margin: 0.75em 0 0 0;
+
+}
+
+.gallery-cell>a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 164, 0);
+}
+
+.gallery-cell>a:visited {
+    color: rgb(56, 105, 56);
 }
 
 ::-webkit-scrollbar {
