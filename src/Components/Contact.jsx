@@ -5,7 +5,7 @@ import '../Components/CSS/Front.css'
 const Contact = ({  }) => {
 
     return (
-        <footer style={{background: '#21313C'}}>
+        <footer className='contact' >
             {/* Centrar */}
             <div>
                 {/* Imagen */}
