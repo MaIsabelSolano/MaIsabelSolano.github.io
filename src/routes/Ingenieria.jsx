@@ -112,19 +112,29 @@ const Ingenieria = () => {
                     <h2>Project Examples</h2>
                     <span className="rs_sec_riel">
                         <Card 
-                            title="Yet Another Programming Language"
-                            desc="desc 1"
-                            color={"blue"}
+                            title="Syntactic Analysis Generator"
+                            desc="(Java)"
+                            color={"#6b7384"}
                         />
                         <Card 
                             title="Quick Supermarket Store Manager"
-                            desc="desc 2"
-                            color={"blue"}
+                            desc="(React)"
+                            color={"#51777f"}
                         />
                         <Card 
                             title="Simple Game of Life"
+                            desc="(Python)"
+                            color={"#a483bf"}
+                        />
+                        <Card 
+                            title="Instagram rebranding"
                             desc="desc 2"
-                            color={"blue"}
+                            color={"#64bcb9"}
+                        />
+                        <Card 
+                            title="WhatsApp rebranding"
+                            desc="desc 2"
+                            color={"#48ad76"}
                         />
                     </span>
                 </span>
