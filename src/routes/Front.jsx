@@ -12,7 +12,7 @@ const Front = ({}) => {
   return (
     <div className="Front">
       <HeaderF/>
-      
+
       <span className="categories">
         <Category 
           cat = "Computer Science"
@@ -24,6 +24,7 @@ const Front = ({}) => {
           cat = "Art"
           linkto="/Art"
           col={"#b5b2be"}
+          image = "url('/images/construction.png')"
         />
       </span>
       <Contact/>
