@@ -1,1 +1,0 @@
-# MaIsabelSolano.github.io
