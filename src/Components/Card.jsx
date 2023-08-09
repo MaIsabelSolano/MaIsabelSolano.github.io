@@ -3,7 +3,6 @@ import '../Components/CSS/Ing.css'
 const Card = ({title, desc, img, color, linkName, linkURL}) => {
 
     const cond = (typeof linkName !== "undefined")
-    console.log(cond);
 
     return (
         <div className='gallery-cell' style={{backgroundColor: color}}>
@@ -13,7 +12,7 @@ const Card = ({title, desc, img, color, linkName, linkURL}) => {
             <img src={img}/>
 
             {cond ? 
-                <a href={linkURL} target="_blank" >
+                <a href={linkURL} target="_blank" rel="noreferrer">
                     {linkName}
                 </a> 
                 :

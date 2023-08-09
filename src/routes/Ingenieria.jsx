@@ -8,15 +8,6 @@ import Card from "../Components/Card"
 
 const Ingenieria = () => {
 
-    const rows = {
-
-        display: "flex",
-        flexFlow: "row",
-
-    }
-
-    // return ( <div style={{height: "100vh", width:"100%", backgroundColor: "black"}}></div>)
-
     return (
         <div
             style={{
@@ -48,7 +39,7 @@ const Ingenieria = () => {
                 </div> 
                 <span style={{padding : "0.3em", display: "flex", flexFlow: "column", alignItems: "center"}}>
                     <h4 style={{width : "85%", textAlign:"center"}}> Fourth-year undergraduate student of Computer Science Engineering</h4>
-                    <p  style={{width : "90%", textAlign:"center"}}>My journey began in 2020 thanks to the humongous help of the Juan Bautista Gutiérrez Foundation. Since then I've been dedicated to studying, creating, and learning the most out of everything</p>
+                    <p  style={{width : "90%", textAlign:"center"}}>My journey began in 2020 thanks to the humongous help of the Juan Bautista Guti&eacute;rrez Foundation. Since then I've been dedicated to studying, creating, and learning the most out of everything</p>
                 </span>
                 
             </div>
@@ -87,11 +78,11 @@ const Ingenieria = () => {
                             img="/images/logounity.png"
                         />
                         <Card 
-                        title="DBM"
-                        desc="A year of experience | Postgres, MongoDB  | Advanced beginner"
-                        color={"#8fa899"}
-                        img="/images/logopostgres.png"
-                    />
+                            title="DBM"
+                            desc="A year of experience | Postgres, MongoDB  | Advanced beginner"
+                            color={"#8fa899"}
+                            img="/images/logopostgres.png"
+                        />
                     </span>
                 </span>
 
@@ -169,7 +160,7 @@ const Ingenieria = () => {
                         />
                         <Card 
                             title="CyberWomen Challenge 2023"
-                            desc='Virtual "Cyberwomen Challenge Centroamérica y el Caribe 2023" participation'
+                            desc='Virtual "Cyberwomen Challenge Centroam&eacute;rica y el Caribe 2023" participation'
                             color={"#cc5353"}
                             img="/images/cyberwoman.png"
                         />

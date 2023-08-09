@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react'
-
 import '../Components/CSS/Front.css'
 
-const Contact = ({  }) => {
+const Contact = () => {
 
     return (
         <footer className='contact' >
@@ -18,13 +16,13 @@ const Contact = ({  }) => {
                 </div>
                 <div className='cont-minsec'>
                     <h3>Social media</h3>
-                    <a href='https://www.linkedin.com/in/isabel-solano/' target="_blank" >
+                    <a href='https://www.linkedin.com/in/isabel-solano/' target="_blank" rel="noreferrer" >
                         LinkIn
                     </a>
-                    <a href="https://github.com/MaIsabelSolano" target="_blank">
+                    <a href="https://github.com/MaIsabelSolano" target="_blank" rel="noreferrer">
                         Github
                     </a>
-                    <a href="https://bel-games.itch.io/" target="_blank">
+                    <a href="https://bel-games.itch.io/" target="_blank" rel="noreferrer">
                         Itch.io
                     </a>
                     

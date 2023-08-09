@@ -15,6 +15,7 @@ module.exports = {
       "no-undef":"off",
       "space-in-parens": ["error", "never"],
       "no-alert": "error",
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "react/no-unescaped-entities": "off"
     }
   }
