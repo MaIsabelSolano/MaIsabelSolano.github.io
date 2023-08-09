@@ -9,7 +9,7 @@ const HeaderF = () => {
                 {/* Logo/imagen */}
                 <img 
                     className='logo'
-                    src='/images/yo.png'
+                    src='/images/Yo.png'
                     style={{
                         width: "auto",
                         maxWidth: "10em",
