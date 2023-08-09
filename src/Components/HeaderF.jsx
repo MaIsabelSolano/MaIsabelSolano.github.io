@@ -1,9 +1,11 @@
 import React, { useEffect , useState } from 'react'
 
+import '../Components/CSS/Front.css'
+
 const HeaderF = () => {
 
     return (
-        <div>
+        <div className='header'>
             {/* Posicionamiento */}
             <div>
                 {/* Logo/imagen */}
@@ -12,7 +14,7 @@ const HeaderF = () => {
                 </div>
 
                 {/* Nombre */}
-                <div>
+                <div className='title'>
                     <h1>Ma. Isabel "Michy" Solano</h1>
                 </div>
 

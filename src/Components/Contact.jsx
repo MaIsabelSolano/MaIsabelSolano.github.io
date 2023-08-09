@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
+import '../Components/CSS/Front.css'
+
 const Contact = ({  }) => {
 
     return (

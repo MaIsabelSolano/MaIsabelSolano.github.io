@@ -1,10 +1,9 @@
-const Card = ({title, desc, img}) => {
+import '../Components/CSS/Ing.css'
+
+const Card = ({title, desc, img, color}) => {
 
     return (
-        <div style={{
-            backgroundColor: "yellow",
-            width: "10em"
-        }}>
+        <div className='gallery-cell' style={{backgroundColor: color}}>
 
             <h3>{title}</h3>
             <p>{desc}</p>
