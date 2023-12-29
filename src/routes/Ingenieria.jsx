@@ -105,6 +105,14 @@ const Ingenieria = () => {
                 <span className="rs_sec">
                     <h2>Project Examples</h2>
                     <span className="rs_sec_riel">
+                        <Card
+                            title="Mili"
+                            desc="Figma | Assignment for Human Computer Intraction (HCI) | Simple Prototye of an App to record comics and manga reading"
+                            color={"rgb(33, 145, 123)"}
+                            img="/images/Mili.png"
+                            linkName="Figma"
+                            linkURL="https://www.figma.com/proto/2hDOpllLNUydhcmYhRqcHU/MILI?node-id=0-7&starting-point-node-id=0%3A7&mode=design&t=asVna9ivSCWXAshM-1"
+                        />
                         <Card 
                             title="Syntactic Analysis Generator"
                             desc="Java | Assignment for Programming Language Design | YAPL (Yet Another Programming Language) syntactic analysis generator"
