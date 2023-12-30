@@ -167,6 +167,14 @@ const Ingenieria = () => {
                             linkName="Coursera"
                             linkURL="https://coursera.org/share/86823a67ba3911cce40f5dec761e5e21"
                         />
+                        <Card
+                            title="AWS Cloudfront: Serve Content From Multiple S3 Buckets"
+                            desc="A guided project to learn about AWS webservice Cloudfront and S3 buckets"
+                            color="rgb(20, 156, 190)"
+                            img="/images/Coursera_AWSCloudfront_ServeContentFromMultipleS3Buckets.png"
+                            linkName="Coursera"
+                            linkURL="https://coursera.org/share/05d8f7748f7e7c003e8b62e30d6ad4ab"
+                        />
                         <Card 
                             title="Introduction to Unreal Engine by Code Coven"
                             desc="8 week virtual course (march 2022 - may 2022)"
