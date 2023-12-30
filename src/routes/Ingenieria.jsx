@@ -157,8 +157,16 @@ const Ingenieria = () => {
                 </span>
 
                 <span className="rs_sec">
-                    <h2>Certificates</h2>
+                    <h2>Certificates (open image in a new tab to see)</h2>
                     <span className="rs_sec_riel">
+                        <Card
+                            title="Get Started With Figma"
+                            desc="Easy and quick introduction to Figma | Coursera Project Network"
+                            color="rgb(20, 156, 190)"
+                            img="/images/Coursera_GetStartedWithFigma.png"
+                            linkName="Coursera"
+                            linkURL="https://coursera.org/share/86823a67ba3911cce40f5dec761e5e21"
+                        />
                         <Card 
                             title="Introduction to Unreal Engine by Code Coven"
                             desc="8 week virtual course (march 2022 - may 2022)"
